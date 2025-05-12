@@ -1,0 +1,337 @@
+{
+  "name": "Modern Product Theme",
+  "version": "1.0.0",
+  "settings_schema": [
+    {
+    },
+    {
+      "name": "Homepage",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Hero Section"
+        },
+        {
+          "type": "text",
+          "id": "hero_title",
+          "label": "Hero Title",
+          "default": "Revolutionary Product That Changes Lives"
+        },
+        {
+          "type": "textarea",
+          "id": "hero_subtitle",
+          "label": "Hero Subtitle",
+          "default": "Our innovative product helps thousands of customers solve their everyday problems."
+        },
+        {
+          "type": "text",
+          "id": "hero_button_text",
+          "label": "Button Text",
+          "default": "Shop Now"
+        },
+        {
+          "type": "url",
+          "id": "hero_button_link",
+          "label": "Button Link",
+          "default": "/collections/all"
+        },
+        {
+          "type": "header",
+          "content": "Features Section"
+        },
+        {
+          "type": "text",
+          "id": "features_title",
+          "label": "Features Title",
+          "default": "Why Choose Our Product"
+        },
+        {
+          "type": "textarea",
+          "id": "features_subtitle",
+          "label": "Features Subtitle",
+          "default": "Discover the amazing benefits that make our product stand out from the competition."
+        },
+        {
+          "type": "header",
+          "content": "Product Showcase"
+        },
+        {
+          "type": "image_picker",
+          "id": "product_image",
+          "label": "Product Image"
+        },
+        {
+          "type": "text",
+          "id": "product_title",
+          "label": "Product Title",
+          "default": "Our Flagship Product"
+        },
+        {
+          "type": "richtext",
+          "id": "product_description",
+          "label": "Product Description",
+          "default": "<p>Experience the revolution with our flagship product. Designed with precision and care to give you the best results every time.</p>"
+        },
+        {
+          "type": "text",
+          "id": "product_button_text",
+          "label": "Button Text",
+          "default": "Buy Now"
+        },
+        {
+          "type": "url",
+          "id": "product_button_link",
+          "label": "Button Link",
+          "default": "/products/product-name"
+        },
+        {
+          "type": "header",
+          "content": "Testimonials Section"
+        },
+        {
+          "type": "text",
+          "id": "testimonials_title",
+          "label": "Testimonials Title",
+          "default": "What Our Customers Say"
+        },
+        {
+          "type": "textarea",
+          "id": "testimonials_subtitle",
+          "label": "Testimonials Subtitle",
+          "default": "Don't just take our word for it. Hear from our satisfied customers."
+        },
+        {
+          "type": "header",
+          "content": "How It Works Section"
+        },
+        {
+          "type": "text",
+          "id": "how_it_works_title",
+          "label": "How It Works Title",
+          "default": "How It Works"
+        },
+        {
+          "type": "textarea",
+          "id": "how_it_works_subtitle",
+          "label": "How It Works Subtitle",
+          "default": "Using our product is as easy as 1-2-3. Follow these simple steps to get started."
+        },
+        {
+          "type": "header",
+          "content": "FAQ Section"
+        },
+        {
+          "type": "text",
+          "id": "faq_title",
+          "label": "FAQ Title",
+          "default": "Frequently Asked Questions"
+        },
+        {
+          "type": "textarea",
+          "id": "faq_subtitle",
+          "label": "FAQ Subtitle",
+          "default": "Find answers to the most common questions about our product."
+        },
+        {
+          "type": "header",
+          "content": "CTA Section"
+        },
+        {
+          "type": "text",
+          "id": "cta_title",
+          "label": "CTA Title",
+          "default": "Ready to Transform Your Life?"
+        },
+        {
+          "type": "textarea",
+          "id": "cta_text",
+          "label": "CTA Text",
+          "default": "Join thousands of satisfied customers who have already experienced the difference."
+        },
+        {
+          "type": "text",
+          "id": "cta_button_text",
+          "label": "Button Text",
+          "default": "Get Yours Now"
+        },
+        {
+          "type": "url",
+          "id": "cta_button_link",
+          "label": "Button Link",
+          "default": "/products/product-name"
+        }
+      ]
+    }
+  ],name": "Theme Colors",
+      "settings": [
+        {
+          "type": "color",
+          "id": "primary_color",
+          "label": "Primary Color",
+          "default": "#ff6b6b"
+        },
+        {
+          "type": "color",
+          "id": "secondary_color",
+          "label": "Secondary Color",
+          "default": "#4ecdc4"
+        },
+        {
+          "type": "color",
+          "id": "text_color",
+          "label": "Text Color",
+          "default": "#333333"
+        },
+        {
+          "type": "color",
+          "id": "light_bg",
+          "label": "Light Background",
+          "default": "#f8f9fa"
+        },
+        {
+          "type": "color",
+          "id": "dark_bg",
+          "label": "Dark Background",
+          "default": "#343a40"
+        }
+      ]
+    },
+    {
+      "name": "Typography",
+      "settings": [
+        {
+          "type": "font_picker",
+          "id": "heading_font",
+          "label": "Heading Font",
+          "default": "poppins_n6"
+        },
+        {
+          "type": "font_picker",
+          "id": "body_font",
+          "label": "Body Font",
+          "default": "poppins_n4"
+        }
+      ]
+    },
+    {
+      "name": "Header",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "logo",
+          "label": "Logo"
+        },
+        {
+          "type": "range",
+          "id": "logo_width",
+          "min": 50,
+          "max": 250,
+          "step": 10,
+          "unit": "px",
+          "label": "Logo width",
+          "default": 140
+        },
+        {
+          "type": "link_list",
+          "id": "menu",
+          "label": "Menu",
+          "default": "main-menu"
+        }
+      ]
+    },
+    {
+      "name": "Footer",
+      "settings": [
+        {
+          "type": "text",
+          "id": "footer_column1_title",
+          "label": "Column 1 Title",
+          "default": "Shop"
+        },
+        {
+          "type": "link_list",
+          "id": "footer_menu1",
+          "label": "Column 1 Menu",
+          "default": "footer"
+        },
+        {
+          "type": "text",
+          "id": "footer_column2_title",
+          "label": "Column 2 Title",
+          "default": "Information"
+        },
+        {
+          "type": "link_list",
+          "id": "footer_menu2",
+          "label": "Column 2 Menu",
+          "default": "footer"
+        },
+        {
+          "type": "text",
+          "id": "footer_column3_title",
+          "label": "Contact",
+          "default": "Get in touch"
+        },
+        {
+          "type": "richtext",
+          "id": "footer_contact_info",
+          "label": "Contact Information",
+          "default": "<p>Email: contact@example.com<br>Phone: (123) 456-7890</p>"
+        },
+        {
+          "type": "text",
+          "id": "footer_newsletter_title",
+          "label": "Newsletter Title",
+          "default": "Subscribe"
+        },
+        {
+          "type": "text",
+          "id": "footer_newsletter_text",
+          "label": "Newsletter Text",
+          "default": "Subscribe to get special offers, free giveaways, and new product announcements."
+        },
+        {
+          "type": "url",
+          "id": "social_facebook",
+          "label": "Facebook URL"
+        },
+        {
+          "type": "url",
+          "id": "social_instagram",
+          "label": "Instagram URL"
+        },
+        {
+          "type": "url",
+          "id": "social_twitter",
+          "label": "Twitter URL"
+        }
+      ]
+    },
+    {
+      "name": "Announcement Bar",
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "show_announcement",
+          "label": "Show announcement",
+          "default": true
+        },
+        {
+          "type": "text",
+          "id": "announcement_text",
+          "label": "Announcement text",
+          "default": "Free shipping on all orders over $50"
+        },
+        {
+          "type": "color",
+          "id": "announcement_bg",
+          "label": "Background",
+          "default": "#ff6b6b"
+        },
+        {
+          "type": "color",
+          "id": "announcement_text_color",
+          "label": "Text color",
+          "default": "#ffffff"
+        }
+      ]
